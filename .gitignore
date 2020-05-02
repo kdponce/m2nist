@@ -1,1 +1,6 @@
-data/
+# Prevent datasets from being pushed
+data/external/*
+data/interim/*
+data/processed/*
+data/raw/*
+!**/.gitkeep
